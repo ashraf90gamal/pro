@@ -1,0 +1,714 @@
+/* start Global*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(/images/century\ 21.jpeg);
+
+}
+.body2{
+    background-color: #ccc;
+}
+
+.container{
+   width: 1200px;
+   margin: auto;
+   position: relative;
+   
+
+}
+ ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ span{
+     color: red;
+     text-transform: lowercase;
+ }
+
+.hidden{
+    display: none;
+}
+h1{
+    font-size: 40px;
+}
+
+  .navbar,
+  .header ,
+  .about , 
+  .services , 
+  .Security ,
+  .third , 
+  .test ,
+  .practice ,
+  .deti , 
+  .order , 
+  .write , 
+  .footer{
+ min-width: 1200px;
+}
+/* End Global*/
+/*start navbar*/
+.navbar{
+   font-size: 18px;
+   height: 0px;
+   color: #fff;
+}
+
+.navbar .brand{
+    float: left;
+    width: 48%;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.navbar .links {
+    float: left;
+    width: 37%;
+    margin-top: 25px;
+}
+
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid  transparent  ;
+}
+
+
+
+.navbar .links li a , .bun1 ,.bun2 {
+color: #fff;
+text-decoration: none;
+
+}
+ .navbar .number {
+    float: right;
+    width: 15%;
+    margin-top: 35px;
+}
+
+.navbar .links li.active a,
+.navbar .links li a:hover{
+color: red;
+}
+
+.navbar .links li.active,
+.navbar .links li:hover{
+    border-bottom: 2px solid red ;
+}
+
+
+
+.contain{
+    margin-top: 5%;
+    margin-left: 65%;
+    float: left;   
+    font-size: x-large;
+}
+.meet{
+    font: x-small;
+}
+.h4{
+    font-size: 20px;
+}
+  .bun1, .bun2, .bun3 , .bun4, .bun5, .bun6{
+      text-decoration: none;
+      background-color: red;
+      border: none;
+      color: #fff;
+      width: 150px;
+      height: 50px;
+      font-size: 15px;
+      margin: 20px 0px;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      cursor: pointer;
+      padding: 0px;
+      outline:none;
+    
+  }
+ 
+ 
+
+  
+  .bun2
+  {
+      background:none;
+
+  }
+   .bun1:hover{
+    color: #fff;
+    background-color:#000;
+    
+
+}
+
+
+  .bun2:hover{
+      color: #000;
+      background-color:#fff;
+      
+
+  }
+
+
+
+/*end navbar*/
+/* start about*/
+.about{
+    overflow: hidden;
+    height: 800px;
+
+}
+
+.about .image{
+ float: right;
+ width: 40%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+}
+
+.about .image img{ 
+    width: 100%;
+}
+
+.about .abinfo {
+    float: right;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about .abinfo h1 {
+    margin: 40px 0 20px 40px;
+}
+
+.about .abinfo p {
+    margin:0 0 10px 40px;
+    line-height: 1.7;
+    color: #777;
+}
+.about .abinfo .hobbies{
+    overflow: hidden;
+    margin: 20%;
+}
+
+.about .abinfo .bun3 {
+      
+        margin:20px 0 10px 40px;
+        
+  
+}
+
+.about .abinfo .bun3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* end about*/
+/* start services */
+
+.special-heading{
+    margin-top: -30px;
+}
+
+ .services {
+     height: 800px;
+     padding: 80px 20px;
+     overflow: hidden;
+
+ }
+
+
+ 
+ .services .item {
+     float: left;
+     width: 33.33333%;
+     margin-bottom: 30px;
+    
+     
+ }
+
+ .services .item  i{
+     color: red;
+     margin-top: 10px;
+     width: 10%;
+     margin-top: 10px;
+     margin-right: 5%;
+
+ }
+ .services .item  .info{
+
+     width: 80%;
+ }
+
+ .services .item  .info  h3{
+     font-weight: normal;
+     color: #585858;
+     margin-bottom: 10px;
+   
+ }
+
+ .services .item  .info  p{
+     margin-top: 0px;
+     color: #888;
+ }
+/* end services */
+/* start secrity*/
+
+.Security{
+    overflow: hidden;
+    height: 800px;
+
+    
+}
+
+.Security .image1{
+ float: left;
+ width: 65%;
+ margin-top: 30px;
+ margin-bottom: 5%;
+ margin-left: -8%;
+}
+.Security h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+
+}
+
+.Security .image1 img{ 
+    width: 100%;
+}
+
+.Security .secri {
+    float: left;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 80px;
+}
+.Security .secri h2 {
+    margin:0 0 5px 40px;
+    font-size: 30px;
+}
+
+.Security .secri p {
+    margin: 10px 0 10px 40px;
+    line-height: 1.7;
+    color: #777;
+}
+
+
+.Security .secri .bun4 {
+      
+        margin:20px 0 10px 40px;
+}
+
+
+.bbi2{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+/* end secrity*/
+/* THIRD*/
+.third{
+    overflow: hidden;
+    height: 700px;
+    margin: auto;
+    padding: 50px 0;
+
+
+}
+
+.third .rightpar{
+ float: right;
+ width: 60%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+}
+
+.third .rightpar img{ 
+    width: 100%;
+}
+
+.third .leftpar {
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.third .fa-chevron-right{
+    right: 0;
+    position: absolute;
+    top: 40%;
+    margin-right: -8%;
+    margin-top: 19%;
+    cursor: pointer;
+}
+.third .fa-chevron-left{
+    left: 0;
+    position: absolute;
+    top: 40%;
+    margin-top: 19%;
+    margin-left: -70px;
+    cursor: pointer;
+}
+.third .fa-chevron-left:hover,
+.third .fa-chevron-right:hover{
+    color: red;
+}
+/* THIRD*/
+/* start  testimonials*/
+.test{
+    padding: 50px 0;
+ overflow: hidden;
+}
+.test .client{
+    overflow: hidden;
+}
+
+.test .client{
+    float: left;
+    width:25%;
+    margin-right: 20%;
+    margin-bottom: 120px;
+
+}
+.test .client .image5{
+    float: left;
+    width: 100%;   
+    margin-bottom:3px ;
+    cursor: pointer;
+   
+}
+.test .client .image5 img {
+    margin-right: 25px;
+    float: left;
+    width: 15%;
+    height: 5%;
+    border-radius: 50%;
+    margin-top:15px;
+}
+.test .client .image5:hover{
+    background-color: #e45353;
+}
+.test .client .image5 h3{
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+}
+.test .client .image5 .skills{
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+ .tit {
+    font-size: 26px;
+    line-height: 1.7;
+    height: 100%;
+}
+
+
+/* end  testimonials*/
+
+/* start  Practice */
+ .practice {
+     margin: 40px;
+     margin-bottom: 100px;
+     overflow: hidden;
+    }
+  
+    .practice ul{
+        list-style: decimal-leading-zero;
+    }
+.practice .part {
+    float: left;
+    width: 32.333%;
+    height: 110px;
+    margin-bottom: 1px;
+    background-color: #e45353;
+    margin-left: 0.5%;
+    cursor: pointer;
+
+ }
+.practice .part:hover{
+    background-color: red;
+}
+.practice .part  {
+    padding-left: 30px;
+}
+ .practice .part p{
+     font-size:20px;
+ }
+   
+/* end  Practice */
+/* start Resources*/
+.deti {
+    padding: 40px 0 ;
+    overflow: hidden;
+}
+.deti .her {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ .deti .her1{
+    float: left;
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+ }
+ .deti .her2{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #595959 ;
+ }
+ .deti .icon1{
+    float: left;
+    width: 25%;
+    margin-bottom: 30px;
+   
+ }
+ .deti .icon ul {
+     list-style: outside;
+     margin-left: 10px;
+     margin-right: 36px;
+     color: rgb(103 116 116);
+ }
+ 
+ .deti .icon ul li {
+
+    margin-top: 35px;
+    margin-bottom: 28px;
+    line-height: 1.2;
+}
+.deti .icon ul li a{
+    color: #1d191980 ;
+    
+ }
+ .deti .icon ul li a:hover{
+     color: #000;
+     text-decoration: none;
+ }
+/* end Resources*/
+
+/* start Peace & order */
+
+
+.order{
+    overflow: hidden;
+    height: 800px;
+
+    
+}
+
+.order .image3{
+ float: right;
+ width: 60%;
+ margin-top: 150px;
+ margin-bottom: 1.5%;
+ margin-right: -8%;
+}
+.order h1{
+    margin: 50px 0px 15px 38px;
+
+}
+
+.order .image3 img{ 
+    width: 100%;
+}
+
+.order .abinfo2 {
+    float: right;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 30px;
+    margin-right: 180px;
+}
+.order .abinfo2 h2 {
+    margin:0 0 5px 40px;
+    font-size: 30px;
+}
+
+.order .abinfo2 p {
+    width: 450px;
+    height: 150;
+    margin: 10px 0 0px 40px;
+    line-height: 1.7;
+    color: #777;
+   
+}
+
+
+.order .abinfo2 .bun5 {
+      
+        margin:20px 0 10px 40px;
+        
+  
+}
+
+
+.bbi2{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* end Peace & order */
+/* start  write */
+.write{
+    height: 575px;
+
+}
+.write form {
+    width: 700px;
+    margin: 5% auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.write form .div1 input{
+    float: left;
+    width: 48%;
+    margin-bottom:2%;
+    margin-left: 2%;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+     border: solid #ccc;
+     outline: none;
+}
+
+.write form .int1 {
+    float:left;
+}
+.write form .int2 {
+    float:right;
+}
+ .write form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: solid #ccc;
+    outline: none;
+} 
+
+
+
+/* end  write*/
+/* start  footer */
+
+
+.footer{
+color: #6c6c6c;
+padding:70px 0;
+overflow: hidden;
+}
+ .footer .cont .col {
+     float: left;
+     width:  33.33333%;
+ }
+.footer .container .cont h3{
+    color:#0f0c0c;
+}
+.footer .container .cont address {
+    color:#0f0c0c;
+    margin-bottom: 3px;
+}
+    
+.footer .container .cont ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer .container .cont ul li{
+    cursor: pointer;
+}
+
+.footer .container .cont li{
+    line-height: 1;
+    padding: 10px 13px;
+    margin: 0 10px;
+}
+.footer .container .cont .col ul{
+    width: 48%;
+    padding: 0;
+    margin: 0;
+
+}
+.footer .container .cont .col ul li{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid  transparent
+}
+.footer .container .cont .col ul li:hover{
+    border-bottom: 2px solid  red;
+
+}
+.footer .cont .col .lix ul li{
+    line-height: 1;
+    padding: 10px 13px;
+    margin: 0 10px;
+}
+ .footer .cont .col .lix i{
+     display: inline-block;
+     color: #6c6c55;
+     border: 2px solid #6c6c55;
+     border-radius: 30px;
+     width: 40px;
+     padding: 10px;
+     cursor: pointer;
+     margin-top: 5px;
+ }
+ .footer .cont .col .lix i:hover{
+     background-color: red;
+ }
+
+/* .footer .container .cont li:hover{
+    border-bottom: 5px solid red;
+} */
+
+/* end  footer*/
+/* start header */
+.header{
+    background-image: url(../pho/WhatsApp\ Image\ 2021-03-19\ at\ 4.37.19\ AM.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+
+/*end header */
+/* start My framework*/
+
+ .clearfix {
+    clear: both;
+ }
+
+ .clearfix {
+    clear: both;
+ }
+ .special-heading{
+    position: relative;
+    font-size: 50px;
+ }
+
+ .special-heading::after{
+    content: "ashraf ";
+ }
+/* End My framework*/
+
+/*practcing */

@@ -1,0 +1,121 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(/images/century\ 21.jpeg);
+
+}
+.body2{
+    background-color: #ccc;
+}
+
+.container{
+   width: 1200px;
+   margin: auto;
+   
+
+}
+ ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ span{
+     color: red;
+     text-transform: lowercase;
+ }
+
+.hidden{
+    display: none;
+}
+h1{
+    font-size: 40px;
+}
+/* End Global*/
+/*start navbar*/
+.navbar{
+   font-size: 18px;
+   height: 0px;
+   color: #fff;
+
+}
+/*start navbar*/
+.navbar{
+    font-size: 18px;
+    height: 0px;
+    color: #fff;
+ 
+ }
+ 
+ .navbar .brand{
+     float: left;
+     width: 48%;
+     text-transform: uppercase;
+     margin-top: 10px;
+ }
+ 
+ .navbar .links {
+     float: left;
+     width: 37%;
+     margin-top: 25px;
+ }
+ 
+ 
+ .navbar .links li {
+     display: inline-block;
+     padding: 10px 0;
+     margin: 0 10px;
+     border-bottom: 2px solid  transparent  ;
+ }
+/* start about*/
+
+
+.about .image{
+ float: right;
+ width: 40%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+}
+
+.about .image img{ 
+    width: 100%;
+}
+
+.about .abinfo {
+    float: right;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about .abinfo h1 {
+    margin: 40px 0 20px 40px;
+}
+
+.about .abinfo p {
+    margin:0 0 10px 40px;
+    line-height: 1.7;
+    color: #777;
+}
+.about .abinfo .hobbies{
+    overflow: hidden;
+    margin: 20%;
+}
+
+.about .abinfo .bun3 {
+      
+        margin:20px 0 10px 40px;
+        
+  
+}
+
+.about .abinfo .bun3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* end about*/
